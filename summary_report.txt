@@ -1,0 +1,9 @@
+Weather Summary Report
+Cities Processed: 4
+
+Highest Temperature: 33.6°C - Chandigarh
+Lowest Temperature: 20.8°C - Shimla
+Average Temperature: 26.9°C
+
+Clear Weather Cities: 1
+- Shimla
