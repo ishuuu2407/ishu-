@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Apurva</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <canvas id="fireworks"></canvas>
+    <div class="container">
+        <h1>🎉 Happy Birthday Apurva 🎂</h1>
+        <p class="message">LOVE YOU MERA BACCHA 💋<br>KEEP SHINING IN YOUR LIFE BABY 🧿</p>
+
+        <button onclick="revealMessage()" class="reveal-btn">DEKHO MERA MASSAGE HAI  💌</button>
+        <p id="secret" style="display:none;">LOVE YOU BACCHA APNE KITNA BHI LAD LE APN HAMESHA SATH RHEGE CHAHE KUCH BHI HO OR HA LOVE YOU MERI KUTIYA  💖 ~ ISHU</p>
+
+        <div class="gallery">
+            <img src="img1.jpg">
+            <img src="img2.jpg">
+            <img src="img3.jpg">
+            <img src="img4.jpg">
+        </div>
+
+        <div class="music">
+            <audio id="birthday-song" src="/static/ISHU.MP3.mp3" loop></audio>
+            
+            <button onclick="document.getElementById('birthday-song').play()" style="background-color: pink; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                Play Song
+            </button>
+        </div>
+
+        <div class="countdown" id="countdown"></div>
+        <footer>BACCHA ❤️ LOVE YOU </footer>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
